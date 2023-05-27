@@ -18,6 +18,7 @@
         background-color: transparent;
         border: none;
         padding: 0;
+        cursor: pointer;
     }
 }
 
@@ -36,6 +37,11 @@
     &__list-item {
         padding-left: 35px;
         padding-right: 45px;
+    }
 
+    &__list-link {
+        @extend %title-font;
+        color: rgba(54, 56, 56, 0.9033);
+        line-height: 22px;
     }
 }
