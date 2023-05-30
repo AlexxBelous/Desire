@@ -10,6 +10,8 @@ body {
 	color: $default;
 	//font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	min-width: 320px;
 }
 
 .wrapper {
